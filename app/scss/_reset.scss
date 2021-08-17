@@ -1,0 +1,35 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+// img {
+//     width: 100%;
+// }
+
+body {
+    // height: 100vh;
+    margin: 0;
+    font-family: $font-family-primay;
+    // font-size: $body-font-size;
+    // font-weight: 400;
+    // &.no_scroll {
+    //     overflow: hidden;
+    // }
+}

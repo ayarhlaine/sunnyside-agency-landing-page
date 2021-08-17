@@ -1,0 +1,52 @@
+header {
+    height: 50rem;
+    width: 100%;
+    background: url(../../images/desktop/image-header.jpg) no-repeat center/cover;
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 5rem;
+        &__logo {
+
+        }
+        &__links {
+            display: flex;
+            gap: 0 5rem;
+            align-items: center;
+        }
+        &__item {
+            display: flex;
+        }
+        &__link {
+            font-family: $font-family-primay;
+            color: $white;
+            padding: 0.5rem 1rem;
+            transition: opacity 0.2s ease-in;
+            &:hover {
+                opacity: 0.4;
+            }
+        }
+        &__link.active {
+            text-transform: uppercase;
+            background-color: $white;
+            color: $very-dark-desaturated-blue;
+            border-radius: 5rem;
+        }
+    }
+    .header {
+        text-align: center;
+        &__title {
+            font-family: $font-family-secondary;
+            font-size: 2.5rem;
+            letter-spacing: 0.5rem;
+            text-transform: uppercase;
+            color: $white;
+            text-align: center;
+        }
+        &__arrow__down{
+            height: 10rem;
+            margin-top: 8rem;
+        }
+    }
+}
