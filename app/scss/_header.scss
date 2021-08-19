@@ -7,9 +7,6 @@ header {
         justify-content: space-between;
         align-items: center;
         padding: 1rem 5rem;
-        &__logo {
-
-        }
         &__links {
             display: flex;
             gap: 0 5rem;
@@ -47,6 +44,26 @@ header {
         &__arrow__down{
             height: 10rem;
             margin-top: 8rem;
+        }
+    }
+}
+@include maxw($break-point-mobile) {
+    header {
+        height: 40rem;
+        background: url(../../images/mobile/image-header.jpg) no-repeat center/cover;
+        .nav {
+            padding: 1rem;
+            &__links{
+                display: none;
+            }
+        }
+        .header {
+            &__title {
+                // font-size: 1.5rem;
+            }
+            &__arrow__down{
+                // margin-top: 9rem;
+            }
         }
     }
 }

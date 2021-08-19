@@ -155,3 +155,52 @@
         height: 100%;
     }
 }
+
+@include maxw($break-point-mobile) {
+    .content {
+        &__item {
+            text-align: center;
+            padding: 2rem 4rem;
+        }
+    }
+    .content.content1 {
+        flex-direction: column-reverse;
+        .content__image{
+            min-height: 20rem;
+            background-image: url(../../images/mobile/image-transform.jpg);
+        }
+    }
+    .content.content2 {
+        flex-direction: column-reverse;
+        .content__image{
+            min-height: 20rem;
+            background-image: url(../../images/mobile/image-stand-out.jpg);
+        }
+    }
+    .content.content3 {
+        flex-direction: column;
+        .content__image:first-child{
+            min-height: 30rem;
+            background-image: url(../../images/mobile/image-graphic-design.jpg);
+        }
+        .content__image:last-child{
+            min-height: 30rem;
+            background-image: url(../../images/mobile/image-photography.jpg);
+        }
+        .content3__content{
+            padding: 0rem;
+        }
+    }
+    .testimonial {
+        padding: 4rem 3rem;
+        &__content{
+            flex-direction: column;
+        }
+        &__item{
+           padding: 0.5rem;
+        }
+    }
+    .gallery__images {
+        grid-template-columns: auto auto;
+    }
+}
