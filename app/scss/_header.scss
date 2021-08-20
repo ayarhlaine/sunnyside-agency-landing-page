@@ -1,7 +1,10 @@
 header {
     height: 50rem;
     width: 100%;
-    background: url(../../images/desktop/image-header.jpg) no-repeat center/cover;
+    background: url(../../images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     .nav {
         display: flex;
         justify-content: space-between;
@@ -9,7 +12,7 @@ header {
         padding: 1rem 5rem;
         &__links {
             display: flex;
-            gap: 0 5rem;
+            gap: 0 2rem;
             align-items: center;
         }
         &__item {

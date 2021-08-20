@@ -7,7 +7,7 @@
         align-items: center;
     }
     &__item{
-        padding: 2rem 11rem;
+        padding: 3rem;
     }
     &__heading{
         color: $very-dark-desaturated-blue;
@@ -54,6 +54,7 @@
         background-image: url(../../images/desktop/image-transform.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
 }
 .content.content2 {
@@ -68,6 +69,7 @@
         background-image: url(../../images/desktop/image-stand-out.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
 }
 .content.content3 {
@@ -76,6 +78,7 @@
         background-image: url(../../images/desktop/image-graphic-design.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         text-align: center;
         display: flex;
         align-items: flex-end;
@@ -87,6 +90,7 @@
         p {
             color: $dark-moderate-cyan;
             line-height: 1.5rem;
+            width: 80%;
         }
     }
     .content__image:last-child{
@@ -94,6 +98,7 @@
         background-image: url(../../images/desktop/image-photography.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         display: flex;
         align-items: flex-end;
         text-align: center;
@@ -105,15 +110,17 @@
         p {
             color: rgba($very-dark-grayish-blue, 0.6);
             line-height: 1.5rem;
+            width: 80%;
+            text-overflow: ellipsis;
         }
     }
     .content3__content{
-        padding: 0rem 11rem;
+        padding: 0rem 2rem;
     }
 }
 
 .testimonial {
-    padding: 4rem 12rem;
+    padding: 4rem 2rem;
     text-align: center;
     &__title{
         text-transform: uppercase;
