@@ -14,10 +14,13 @@
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 </head>
 <body>
-  <header class="header">
+  <header>
     <nav class="nav">
       <a href="#" class="nav__logo">
         <img src="./images/logo.svg" alt="Logo">
+      </a>
+      <a href="#" class="nav__hamburger__menu" id="hamburger__menu">
+        <img src="./images/icon-hamburger.svg" alt="Menu">
       </a>
       <ul class="nav__links">
         <li class="nav__item"><a href="#" class="nav__link">About</a></li>
@@ -26,6 +29,14 @@
         <li class="nav__item"><a href="#" class="nav__link active">Contact</a></li>
       </ul>
     </nav>
+    <div class="header__mobile__menu" id="header__mobile__menu">
+      <ul class="header__mobile__menu__links">
+        <li class="header__mobile__menu__item"><a href="#" class="header__mobile__menu__link">About</a></li>
+        <li class="header__mobile__menu__item"><a href="#" class="header__mobile__menu__link">Services</a></li>
+        <li class="header__mobile__menu__item"><a href="#" class="header__mobile__menu__link">Projects</a></li>
+        <li class="header__mobile__menu__item"><a href="#" class="header__mobile__menu__link active">Contact</a></li>
+      </ul>
+    </div>
     <div class="header">
       <h1 class="header__title">We are creatives</h1>
       <img src="./images/icon-arrow-down.svg" alt="Arrow Image Down" class="header__arrow__down">
@@ -139,5 +150,6 @@
       </div>
     </div>
   </footer>
+  <script src="./app/js/app.js"></script>
 </body>
 </html>
